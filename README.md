@@ -45,7 +45,7 @@ A backend application for managing online examinations with features for authent
 ## Folder Structure
 
 ```plaintext
-Online Examination System/
+root-dir/
 ├── config/
 │   └── DB.Connect.js               # Database connection
 ├── controllers/
