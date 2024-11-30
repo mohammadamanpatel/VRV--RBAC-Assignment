@@ -16,23 +16,20 @@ A backend application for managing online examinations with features for authent
 
 ## Features
 
-### Admin:
-- Manage users and their roles.
-- Oversee all exams and results.
-
-### Instructor:
-- Create, update, and delete exams.
-- View submitted exam results.
-
-### Student:
-- View available exams.
-- Attempt exams and submit answers.
-- View scores for completed exams.
-
 ### General:
 - Secure login system using JWT.
 - Role-based access control to restrict user actions.
 - Token expiry handling with error messaging.
+
+### Admin:
+- Oversee all exams.
+
+### Instructor:
+- Create, update, and delete exams.
+
+### Student:
+- View available exams.
+- Attempt exams and submit answers.
 
 ---
 
