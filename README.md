@@ -1,7 +1,7 @@
 
 ---
 
-# Online Examination System
+# RBAC Assignment
 
 A backend application for managing online examinations with features for authentication, role-based access control (RBAC), and CRUD operations for users and exams.
 
