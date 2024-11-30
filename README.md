@@ -74,7 +74,7 @@ Online Examination System/
 
 1. **Clone the Repository**
    ```bash
-   git clone [<repository-url>](https://github.com/mohammadamanpatel)
+   git clone https://github.com/mohammadamanpatel/VRV--RBAC-Assignment
    cd VRV--RBAC-Assignment
    ```
 
