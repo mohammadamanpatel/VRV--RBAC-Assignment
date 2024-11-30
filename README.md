@@ -1,9 +1,28 @@
-
 ---
 
-# RBAC Assignment
+## Project Description: RBAC Online Examination System
 
-A backend application for managing online examinations with features for authentication, role-based access control (RBAC), and CRUD operations for users and exams.
+The **RBAC Online Examination System** is a backend application designed to manage online examinations while ensuring security through authentication and role-based access control (RBAC). It allows administrators, instructors, and students to perform specific actions based on their roles, ensuring a structured and efficient examination management process.
+
+### Key Features
+
+- **Authentication & Security**: The application uses JSON Web Tokens (JWT) for user authentication, ensuring secure access to protected resources. It also handles token expiry with proper error messaging to enhance user experience.
+  
+- **Role-Based Access Control (RBAC)**: Users are assigned roles (Admin, Instructor, or Student), and their actions are restricted based on permissions defined for each role:
+  - **Admin**: Monitors and manages all exams.
+  - **Instructor**: Creates, updates, and deletes exams.
+  - **Student**: Views exams, attempts exams, and submits answers.
+  
+- **CRUD Operations**: Includes robust APIs for creating, reading, updating, and deleting user and exam data.
+
+- **Scalable Design**: A clean and organized folder structure ensures scalability and maintainability of the codebase.
+
+### Technologies Used
+- **Backend**: Built with Node.js and Express.js for fast and scalable server-side development.
+- **Database**: MongoDB is used to store and manage user and exam data.
+- **Authentication**: JWT ensures secure user sessions with customizable token expiry.
+
+This project showcases a functional and practical backend for handling online examination systems with proper user management and security. It is designed to be a modular, extensible, and production-ready solution.
 
 ## Table of Contents
 - [Features](#features)
@@ -11,33 +30,6 @@ A backend application for managing online examinations with features for authent
 - [Folder Structure](#folder-structure)
 - [Setup Instructions](#setup-instructions)
 - [API Documentation](#api-documentation)
-
----
-
-## Features
-
-### General:
-- Secure login system using JWT.
-- Role-based access control to restrict user actions.
-- Token expiry handling with error messaging.
-
-### Admin:
-- Oversee all exams.
-
-### Instructor:
-- Create, update, and delete exams.
-
-### Student:
-- View available exams.
-- Attempt exams and submit answers.
-
----
-
-## Technologies Used
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Token (JWT)
----
 
 ## Folder Structure
 
