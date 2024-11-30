@@ -1,10 +1,9 @@
-Here is a GitHub README for your assignment, incorporating the folder structure you provided:
 
 ---
 
 # Online Examination System
 
-A full-stack MERN (MongoDB, Express, React, Node.js) application for managing online examinations with features for authentication, role-based access control (RBAC), and CRUD operations for users and exams.
+A backend application for managing online examinations with features for authentication, role-based access control (RBAC), and CRUD operations for users and exams.
 
 ## Table of Contents
 - [Features](#features)
@@ -12,7 +11,6 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing on
 - [Folder Structure](#folder-structure)
 - [Setup Instructions](#setup-instructions)
 - [API Documentation](#api-documentation)
-- [License](#license)
 
 ---
 
@@ -39,12 +37,9 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for managing on
 ---
 
 ## Technologies Used
-- **Frontend**: React.js (not included in this repository, but part of the architecture)
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JSON Web Token (JWT)
-- **File Management**: Multer (for handling form data)
-
 ---
 
 ## Folder Structure
@@ -79,8 +74,8 @@ Online Examination System/
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd online-examination-system
+   git clone [<repository-url>](https://github.com/mohammadamanpatel)
+   cd VRV--RBAC-Assignment
    ```
 
 2. **Install Dependencies**
@@ -92,9 +87,10 @@ Online Examination System/
    - Create a `.env` file in the root directory.
    - Add the following variables:
      ```env
-     PORT=5000
+     PORT=<your-port-number>
      MONGO_URI=<your-mongodb-connection-string>
      JWT_SECRET=<your-jwt-secret-key>
+     JWT_EXPIRY=<yout-jwt-expiry>
      ```
 
 4. **Start the Application**
@@ -102,21 +98,12 @@ Online Examination System/
    npm start
    ```
 
-5. **Test the APIs**
-   Use tools like Postman or Thunder Client to test API endpoints.
-
 ---
 
 ## API Documentation
 
-Refer to the [API Documentation](./API_DOCUMENTATION.md) for detailed information on available endpoints, request/response structures, and examples.
+Refer to the [API Documentation](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/exam-system-endpoints/collection/30730048-f9511483-07ec-40e6-ad90-ae8352cb0c45?action=share&creator=30730048) for detailed information on available endpoints, request/response structures, and examples.
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
-
-Feel free to extend this documentation with additional details or features!
